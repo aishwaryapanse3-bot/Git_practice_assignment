@@ -37,7 +37,8 @@ print(nums[::-1])
 
 nums = []
 
-if not nums:
+if nums == []:
     print(True)
 else:
     print(False)
+
